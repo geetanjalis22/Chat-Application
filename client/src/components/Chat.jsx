@@ -78,8 +78,13 @@ function Chat() {
   const sendMessage = () => {
     if (!message.trim()) return;
 
-    socket.emit("sendMessage", message);
-
+    socket.emit("sendMessage", {
+  text: message,
+  time: new Date().toLocaleTimeString([], {
+    hour: "2-digit",
+    minute: "2-digit",
+  }),
+});
     setMessage("");
   };
 
