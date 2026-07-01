@@ -19,7 +19,6 @@ The application includes a simple authentication system where users can register
 - Logout Functionality
 - Real-Time Messaging
 - Online Users List
-- Typing Indicator
 - Join & Leave Notifications
 - Message Timestamps
 - Responsive Design
@@ -157,28 +156,7 @@ http://localhost:3000
 3. Join the chat room.
 4. Send messages in real time.
 5. View online users.
-6. See typing indicators.
-7. Logout when finished.
-
----
-
-## Screenshots
-
-You can add screenshots here.
-
-### Login Page
-
-```
-<img width="1805" height="878" alt="image" src="https://github.com/user-attachments/assets/228e2dd5-536c-4842-bc2e-d31785d9be1b" />
-
-```
-
-### Chat Screen
-
-```
-<img width="1902" height="893" alt="image" src="https://github.com/user-attachments/assets/897cb5e9-643d-448a-9f76-8244f667c1d5" />
-
-```
+6. Logout when finished.
 
 ---
 
@@ -238,14 +216,6 @@ git push origin feature-name
 ```
 
 5. Open a Pull Request.
-
----
-
-## Author
-
-**Geetanjali S**
-
-GitHub: https://github.com/geetanjalis22
 
 ---
 
