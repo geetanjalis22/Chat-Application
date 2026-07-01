@@ -118,16 +118,13 @@ io.on("connection", (socket) => {
     });
   });
 
-  socket.on("sendMessage", (message) => {
-    io.emit("message", {
-      user: users.get(socket.id),
-      text: message,
-      time: new Date().toLocaleTimeString([], {
-        hour: "2-digit",
-        minute: "2-digit",
-      }),
-    });
+  socket.on("sendMessage", ({ text, time }) => {
+  io.emit("message", {
+    user: users.get(socket.id),
+    text,
+    time,
   });
+});
   socket.on("typing", () => {
     const username = users.get(socket.id);
 
