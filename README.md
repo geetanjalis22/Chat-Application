@@ -19,6 +19,7 @@ The application includes a simple authentication system where users can register
 - Logout Functionality
 - Real-Time Messaging
 - Online Users List
+- Typing Indicator
 - Join & Leave Notifications
 - Message Timestamps
 - Responsive Design
@@ -156,7 +157,8 @@ http://localhost:3000
 3. Join the chat room.
 4. Send messages in real time.
 5. View online users.
-6. Logout when finished.
+6. See typing indicators.
+7. Logout when finished.
 
 ---
 
