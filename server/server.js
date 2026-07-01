@@ -5,8 +5,12 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors());
-
+app.use(cors({
+    origin:[
+        "http://localhost:3000",
+        "https://chat-application-vln8.onrender.com"
+    ]
+}));
 const server = http.createServer(app);
 
 const io = new Server(server, {
